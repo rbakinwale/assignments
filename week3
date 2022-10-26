@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+Registration Page  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   
+Favorite Color :  
+</label>   
+<select>  
+<option value="Color">Color</option>  
+<option value="Red">Red</option>  
+<option value="Blue">Blue</option>  
+<option value="Wine">Wine</option>  
+<option value="Orange">Orange</option>  
+<option value="Yellow">Yello</option>  
+<option value="Purple">Purple</option>  
+</select>  
+  
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+  <br> <br>
+  Date of Birth:
+  <input type="datetime"
+    <br><br>
+
+  
+</form>  
+</body>  
+</html>  
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
